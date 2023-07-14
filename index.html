@@ -4,14 +4,21 @@
 	<title>开发中</title>
 	<link rel="stylesheet" type="text/css" href="css/1.css">
 	<link rel="stylesheet" type="text/css" href="css/2.css">
+	<link rel="stylesheet" type="text/css" href="css/3.css">
+
 	<style>
- body {
- background-image: url("image/1.jpg");
- background-repeat: no-repeat; /* 防止图片重复 */
- background-size: cover; /* 让图片铺满整个屏幕 */
- }
-	</style>
-	<p class="x" style="text-align:center" z-index: 2;>还在开发中，过一段时间再来吧</p>
+    	.scaled-image {
+        	max-width: 100%;
+        	height: auto;
+		z-index: 1
+    	}
+	</style>	
+
+	<img src="image/1.jpg" alt="Example Image" class="scaled-image" >
+	
+	<div z-index: 2>
+	<p class="x">还在开发中，过一段时间再来吧</p>
 	</head>
 </html>
-<a class="a"  href="https://space.bilibili.com/541313312?spm_id_from=333.1007.0.0">OK</a>
+<a class="a"  href="https://bilibili.com">OK</a>
+	</div>
