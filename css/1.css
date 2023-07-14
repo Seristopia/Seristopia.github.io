@@ -16,8 +16,8 @@
 	color: #0099aa;
 	text-decoration: none;
 	background-color: rgba(109,195,177, 0.5);
- 	position: absolute;
- 	top: 10%;
+ 	#position: absolute;
+ 	#top: 10%;
 }
 .a:active{
 	background-color: rgba(47,180,77,0.5);
