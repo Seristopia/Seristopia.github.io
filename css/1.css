@@ -1,19 +1,22 @@
 .a{
 	border: none;
 	background-color: #66ccff;
+	background-size: 100% 20px;
 	color:"fff";
 	cursor: pointer;
 	transition: background-color 0.2s ease;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	font-size: 32px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-size: 320%;
 	text-align:center;
-	margin-right: 45%;
-	margin-left: 45%;
-
+	#margin-right: 50%;
+	margin: 50%;
+	color: #0099aa;
+	text-decoration: none;
+	background-color: rgba(109,195,177, 0.5);
 }
 .a:active{
-	background-color: #559;
+	background-color: rgba(47,180,77,0.5);
 }
